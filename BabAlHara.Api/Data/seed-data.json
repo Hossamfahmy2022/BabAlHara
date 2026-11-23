@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "description": "REAL data for Bab Al Hara (Sinnuris, Fayoum). Collected 2026-11-22 from the official Facebook page (facebook.com/baballhara), Google Maps listing, and Restaurant Guru. No dummy data.",
+    "activeMenuSource": "Official menu image posted on Facebook 31 March 2026 (research/images/menu-2026-03-31.jpg). All 'available' prices come from this image.",
+    "unpricedItemsSource": "Items the restaurant sells (seen in 2020 menu + posts) but with NO current price published. They are seeded with isAvailable=false and price=null so the owner sets the real price in the admin app. lastKnownPrice2020 is for reference only and must NOT be shown to customers.",
+    "currency": "EGP"
+  },
+  "restaurant": {
+    "nameAr": "باب الحارة",
+    "nameEn": "Bab Al Hara",
+    "taglineAr": "طعم سوري من القلب",
+    "descriptionAr": "أصل الأكلة السورية دلوقتي في مدينة سنورس ❤ شاورما، بروست، مشوي على الفحم، بيتزا، كريب وطاسات.",
+    "category": "مطعم مأكولات سورية",
+    "addressAr": "سنورس - شارع بورسعيد أمام الشؤون الاجتماعية بجوار بنك القاهرة، الفيوم",
+    "addressEn": "Port Said St., next to Banque du Caire, Sinnuris, Fayoum, Egypt",
+    "latitude": 29.4099112,
+    "longitude": 30.8660191,
+    "plusCode": "CV58+XC Sinnuris",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:0x1459774941b618eb:0x3bada9844abf171d",
+    "phones": ["01017859575", "01100019756"],
+    "whatsappNumber": "201017859575",
+    "_whatsappNote": "Not explicitly confirmed which number has WhatsApp. 01017859575 is the main listed mobile on Facebook & Google. Owner can change it in admin settings.",
+    "complaintsPhone": "01004217372",
+    "_complaintsNote": "From the 2020 printed menu ('للشكاوى والاقتراحات'). Not re-confirmed in 2026.",
+    "facebookUrl": "https://www.facebook.com/baballhara",
+    "facebookPageId": "117538433282109",
+    "facebookCreated": "2020-08-11",
+    "openedOn": "2020-08-26",
+    "deliveryFee": 10,
+    "_deliveryNote": "From official post: 'الدليفري بـ 10 جنيه من 9 لـ 3 فجراً' (spring 2026).",
+    "paymentMethods": ["Cash"],
+    "services": ["Delivery", "Takeaway", "DineIn"],
+    "timeZone": "Africa/Cairo",
+    "openingHours": [
+      { "dayOfWeek": 0, "dayAr": "الأحد", "open": "09:00", "close": "03:00" },
+      { "dayOfWeek": 1, "dayAr": "الاثنين", "open": "09:00", "close": "03:30" },
+      { "dayOfWeek": 2, "dayAr": "الثلاثاء", "open": "09:00", "close": "03:00" },
+      { "dayOfWeek": 3, "dayAr": "الأربعاء", "open": "09:00", "close": "02:00" },
+      { "dayOfWeek": 4, "dayAr": "الخميس", "open": "09:00", "close": "02:00" },
+      { "dayOfWeek": 5, "dayAr": "الجمعة", "open": "09:00", "close": "03:00" },
+      { "dayOfWeek": 6, "dayAr": "السبت", "open": "09:00", "close": "03:00" }
+    ],
+    "_hoursNote": "From Google Maps. Close time after midnight means next day.",
+    "ratings": {
+      "google": { "score": 3.7, "count": 61 },
+      "facebook": { "recommendPercent": 68, "count": 5 }
+    },
+    "followers": { "facebook": 11000 },
+    "logoUrl": "/images/logo.jpg",
+    "coverUrl": "/images/cover.jpg",
+    "menuImageUrl": "/images/menu-2026-03-31.jpg",
+    "brandColors": { "primary": "#8B5A2B", "gold": "#C9A24B", "cream": "#F5E9D3", "dark": "#2B1D14" }
+  },
+  "offers": [
+    {
+      "titleAr": "الدليفري بـ 10 جنيه",
+      "descriptionAr": "توصيل بـ 10 جنيه بس من 9 الصبح لـ 3 الفجر",
+      "imageUrl": "/images/promo-delivery-10.jpg",
+      "isActive": true
+    },
+    {
+      "titleAr": "كريباية والتانية بجنيه",
+      "descriptionAr": "اطلب كريب والتاني بجنيه واحد",
+      "imageUrl": "/images/promo-crepe-1egp.jpg",
+      "isActive": false,
+      "_note": "Seen in spring-2026 posts; unknown if still running — owner can activate."
+    }
+  ],
+  "categories": [
+    {
+      "slug": "boxes", "nameAr": "بوكسات وميكسات", "nameEn": "Boxes & Mixes", "imageUrl": "/images/cat-boxes.jpg", "sortOrder": 1,
+      "items": [
+        { "nameAr": "بوكس الهضبة سنجل", "descriptionAr": "3 سندوتش شاورما (S) + 3 سندوتش كرسبي (S)", "variants": [ { "nameAr": null, "price": 280 } ] },
+        { "nameAr": "بوكس الهضبة لارج", "descriptionAr": "3 سندوتش شاورما (M) + 3 سندوتش كرسبي (M)", "variants": [ { "nameAr": null, "price": 380 } ] },
+        { "nameAr": "بوكس الأبضاي", "descriptionAr": "وجبة شاورما عربي + قطعتين كرسبي", "variants": [ { "nameAr": null, "price": 130 } ] },
+        { "nameAr": "بوكس الشبيح", "descriptionAr": "ربع فحم أو شواية + 3 قطع شاورما عربي + قطعتين كرسبي", "isFeatured": true, "variants": [ { "nameAr": "ورك", "price": 150 }, { "nameAr": "صدر", "price": 165 } ] },
+        { "nameAr": "بوكس الفخامة", "descriptionAr": "ربع فرخة تركي + قطعتين كرسبي", "variants": [ { "nameAr": null, "price": 130 } ] },
+        { "nameAr": "بوكس القرمشة", "descriptionAr": "وجبة قطعتين + 3 قطع شاورما عربي", "variants": [ { "nameAr": null, "price": 150 } ] },
+        { "nameAr": "بوكس الروقان", "descriptionAr": "ربع فحم أو شواية + قطعتين كرسبي", "variants": [ { "nameAr": null, "price": 130 } ] }
+      ]
+    },
+    {
+      "slug": "pizza", "nameAr": "بيتزا", "nameEn": "Pizza", "imageUrl": "/images/cat-pizza.jpg", "sortOrder": 2,
+      "items": [
+        { "nameAr": "بيتزا خضار", "variants": [ { "nameAr": "صغير", "price": 90 }, { "nameAr": "وسط", "price": 100 }, { "nameAr": "كبير", "price": 115 } ] },
+        { "nameAr": "بيتزا مارجريتا", "variants": [ { "nameAr": "صغير", "price": 90 }, { "nameAr": "وسط", "price": 100 }, { "nameAr": "كبير", "price": 115 } ] },
+        { "nameAr": "بيتزا مكس جبن", "variants": [ { "nameAr": "صغير", "price": 95 }, { "nameAr": "وسط", "price": 110 }, { "nameAr": "كبير", "price": 125 } ] },
+        { "nameAr": "بيتزا كريسبي", "variants": [ { "nameAr": "صغير", "price": 110 }, { "nameAr": "وسط", "price": 130 }, { "nameAr": "كبير", "price": 150 } ] },
+        { "nameAr": "بيتزا فاهيتا", "variants": [ { "nameAr": "صغير", "price": 110 }, { "nameAr": "وسط", "price": 130 }, { "nameAr": "كبير", "price": 150 } ] },
+        { "nameAr": "بيتزا شاورما", "variants": [ { "nameAr": "صغير", "price": 110 }, { "nameAr": "وسط", "price": 130 }, { "nameAr": "كبير", "price": 150 } ] },
+        { "nameAr": "بيتزا سوسيس", "variants": [ { "nameAr": "صغير", "price": 110 }, { "nameAr": "وسط", "price": 130 }, { "nameAr": "كبير", "price": 150 } ] },
+        { "nameAr": "بيتزا تونة", "variants": [ { "nameAr": "كبير", "price": 160 } ] },
+        { "nameAr": "بيتزا فور سيزون", "variants": [ { "nameAr": "كبير", "price": 160 } ] },
+        { "nameAr": "بيتزا سوبريم باب الحارة", "isFeatured": true, "variants": [ { "nameAr": "كبير", "price": 160 } ] }
+      ]
+    },
+    {
+      "slug": "tasat", "nameAr": "طاسات", "nameEn": "Tasat (Bowls)", "imageUrl": null, "sortOrder": 3,
+      "items": [
+        { "nameAr": "طاسة نجرسكو", "variants": [ { "nameAr": "صغير", "price": 50 }, { "nameAr": "وسط", "price": 80 }, { "nameAr": "كبير", "price": 100 } ] },
+        { "nameAr": "طاسة زنجر", "variants": [ { "nameAr": "صغير", "price": 50 }, { "nameAr": "وسط", "price": 80 }, { "nameAr": "كبير", "price": 100 } ] },
+        { "nameAr": "طاسة فاهيتا", "variants": [ { "nameAr": "صغير", "price": 50 }, { "nameAr": "وسط", "price": 80 }, { "nameAr": "كبير", "price": 100 } ] },
+        { "nameAr": "طاسة باب الحارة", "isFeatured": true, "variants": [ { "nameAr": "صغير", "price": 60 }, { "nameAr": "وسط", "price": 90 }, { "nameAr": "كبير", "price": 110 } ] }
+      ]
+    },
+    {
+      "slug": "pasta", "nameAr": "مكرونات ريد صوص", "nameEn": "Red Sauce Pasta", "imageUrl": null, "sortOrder": 4,
+      "items": [
+        { "nameAr": "مكرونة كرسبي", "variants": [ { "nameAr": null, "price": 45 } ] },
+        { "nameAr": "مكرونة زنجر", "variants": [ { "nameAr": null, "price": 45 } ] },
+        { "nameAr": "مكرونة شاورما", "variants": [ { "nameAr": null, "price": 45 } ] },
+        { "nameAr": "مكرونة فاهيتا", "variants": [ { "nameAr": null, "price": 45 } ] },
+        { "nameAr": "مكرونة كبدة", "variants": [ { "nameAr": null, "price": 35 } ] }
+      ]
+    },
+    {
+      "slug": "crepe-chicken", "nameAr": "كريب الفراخ", "nameEn": "Chicken Crepes", "imageUrl": "/images/cat-crepe.jpg", "sortOrder": 5,
+      "items": [
+        { "nameAr": "كريب بانيه فريش", "variants": [ { "nameAr": null, "price": 70 } ] },
+        { "nameAr": "كريب زنجر", "variants": [ { "nameAr": null, "price": 70 } ] },
+        { "nameAr": "كريب كرسبي", "variants": [ { "nameAr": null, "price": 70 } ] },
+        { "nameAr": "كريب شاورما فراخ", "variants": [ { "nameAr": null, "price": 80 } ] },
+        { "nameAr": "كريب شيش طاووق صدور", "variants": [ { "nameAr": null, "price": 80 } ] },
+        { "nameAr": "كريب فاهيتا", "variants": [ { "nameAr": null, "price": 80 } ] },
+        { "nameAr": "كريب بطاطس", "variants": [ { "nameAr": null, "price": 40 } ] }
+      ]
+    },
+    {
+      "slug": "crepe-mix", "nameAr": "كريب ميكسات", "nameEn": "Mix Crepes", "imageUrl": "/images/cat-crepe.jpg", "sortOrder": 6,
+      "items": [
+        { "nameAr": "كريب باب الحارة", "isFeatured": true, "variants": [ { "nameAr": null, "price": 85 } ] },
+        { "nameAr": "كريب مكس جبن", "variants": [ { "nameAr": null, "price": 55 } ] },
+        { "nameAr": "كريب برجر + سوسيس", "variants": [ { "nameAr": null, "price": 50 } ] },
+        { "nameAr": "كريب كرسبي + بطاطس", "variants": [ { "nameAr": null, "price": 80 } ] },
+        { "nameAr": "كريب كرسبي + فاهيتا", "variants": [ { "nameAr": null, "price": 80 } ] }
+      ]
+    },
+    {
+      "slug": "crepe-meat", "nameAr": "كريب لحوم", "nameEn": "Meat Crepes", "imageUrl": "/images/cat-crepe.jpg", "sortOrder": 7,
+      "items": [
+        { "nameAr": "كريب برجر", "variants": [ { "nameAr": null, "price": 40 } ] },
+        { "nameAr": "كريب كبدة", "variants": [ { "nameAr": null, "price": 40 } ] },
+        { "nameAr": "كريب بانيه حلواني", "variants": [ { "nameAr": null, "price": 40 } ] },
+        { "nameAr": "كريب سوسيس", "variants": [ { "nameAr": null, "price": 40 } ] },
+        { "nameAr": "كريب كفتة", "variants": [ { "nameAr": null, "price": 40 } ] }
+      ]
+    },
+    {
+      "slug": "crepe-addons", "nameAr": "إضافات كريب", "nameEn": "Crepe Add-ons", "imageUrl": null, "sortOrder": 8,
+      "items": [
+        { "nameAr": "إضافة بانيه", "variants": [ { "nameAr": null, "price": 20 } ] },
+        { "nameAr": "إضافة برجر", "variants": [ { "nameAr": null, "price": 10 } ] },
+        { "nameAr": "إضافة سوسيس", "variants": [ { "nameAr": null, "price": 10 } ] },
+        { "nameAr": "إضافة موتزريلا", "variants": [ { "nameAr": null, "price": 15 } ] },
+        { "nameAr": "إضافة شيدر", "variants": [ { "nameAr": null, "price": 15 } ] },
+        { "nameAr": "إضافة رومي", "variants": [ { "nameAr": null, "price": 15 } ] },
+        { "nameAr": "إضافة بطاطس", "variants": [ { "nameAr": null, "price": 10 } ] },
+        { "nameAr": "عيش كريب", "variants": [ { "nameAr": null, "price": 15 } ] }
+      ]
+    },
+    {
+      "slug": "sides", "nameAr": "سلطات وإضافات", "nameEn": "Salads & Sides", "imageUrl": null, "sortOrder": 9,
+      "items": [
+        { "nameAr": "تومية صغيرة", "variants": [ { "nameAr": null, "price": 10 } ] },
+        { "nameAr": "تومية كبيرة", "variants": [ { "nameAr": null, "price": 15 } ] },
+        { "nameAr": "باكيت بطاطس صغير", "variants": [ { "nameAr": null, "price": 15 } ] },
+        { "nameAr": "باكيت بطاطس كبير", "variants": [ { "nameAr": null, "price": 20 } ] },
+        { "nameAr": "طبق كولسلو", "variants": [ { "nameAr": null, "price": 15 } ] },
+        { "nameAr": "طبق رز بسمتي", "variants": [ { "nameAr": null, "price": 20 } ] },
+        { "nameAr": "عيش صاج", "variants": [ { "nameAr": null, "price": 4 } ] }
+      ]
+    },
+    {
+      "slug": "cooking-service", "nameAr": "تسويات", "nameEn": "Cooking Service", "imageUrl": null, "sortOrder": 10,
+      "items": [
+        { "nameAr": "كيلو تسوية فرخة تكة", "variants": [ { "nameAr": null, "price": 40 } ] },
+        { "nameAr": "نص كيلو تسوية فرخة", "variants": [ { "nameAr": null, "price": 20 } ] },
+        { "nameAr": "تسوية كيلو لحوم أو كفتة", "variants": [ { "nameAr": null, "price": 50 } ] },
+        { "nameAr": "كيلو تسوية فرخة بروست", "variants": [ { "nameAr": null, "price": 80 } ] },
+        { "nameAr": "تسوية البط / الديك الرومي", "descriptionAr": "السعر حسب الحجم — اتصل بالمطعم", "isAvailable": false, "variants": [ { "nameAr": null, "price": null } ] }
+      ]
+    },
+    {
+      "slug": "shawarma", "nameAr": "الشاورما", "nameEn": "Shawarma", "imageUrl": "/images/cat-shawarma.jpg", "sortOrder": 11, "needsPricing": true,
+      "items": [
+        { "nameAr": "سندوتش شاورما فراخ صاج", "isAvailable": false, "lastKnownPrice2020": 23, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش شاورما فراخ فرنساوي", "isAvailable": false, "lastKnownPrice2020": 18, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش شاورما فراخ شامي", "isAvailable": false, "lastKnownPrice2020": 9, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة شاورما عربي فراخ", "descriptionAr": "بطاطس + تومية + مخلل", "isAvailable": false, "lastKnownPrice2020": 30, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة شاورما عربي فراخ دبل", "isAvailable": false, "lastKnownPrice2020": 50, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة كساديا فراخ", "isAvailable": false, "lastKnownPrice2020": 40, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "فتة شاورما فراخ", "descriptionAr": "تومية + مخلل", "isAvailable": false, "lastKnownPrice2020": 38, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة شاورما فراخ فرط", "isAvailable": false, "lastKnownPrice2020": 45, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "نص كيلو شاورما فراخ", "descriptionAr": "أرز + بطاطس + تومية + عيش", "isAvailable": false, "lastKnownPrice2020": 80, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "كيلو شاورما فراخ", "isAvailable": false, "lastKnownPrice2020": 160, "variants": [ { "nameAr": null, "price": null } ] }
+      ]
+    },
+    {
+      "slug": "grill", "nameAr": "الفحم", "nameEn": "Charcoal Grill", "imageUrl": "/images/cat-grill.jpg", "sortOrder": 12, "needsPricing": true,
+      "items": [
+        { "nameAr": "فرخة فحم كاملة", "descriptionAr": "أرز + بطاطس + كولسلو + تومية + عيش + تومية أسبايسي + مخلل", "isAvailable": false, "lastKnownPrice2020": 105, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "فرخة فحم سادة", "isAvailable": false, "lastKnownPrice2020": 90, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "نص فرخة فحم", "isAvailable": false, "lastKnownPrice2020": 55, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "نص فرخة فحم سادة", "isAvailable": false, "lastKnownPrice2020": 45, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة فراخ تركي", "isAvailable": false, "lastKnownPrice2020": 55, "variants": [ { "nameAr": null, "price": null } ] }
+      ]
+    },
+    {
+      "slug": "broast", "nameAr": "البروست", "nameEn": "Broasted Chicken", "imageUrl": "/images/promo-mix.jpg", "sortOrder": 13, "needsPricing": true,
+      "items": [
+        { "nameAr": "فرخة بروست", "descriptionAr": "أرز + بطاطس + كولسلو + تومية + عيش + تومية أسبايسي", "isAvailable": false, "lastKnownPrice2020": 110, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "نص فرخة بروست", "isAvailable": false, "lastKnownPrice2020": 60, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "ربع فرخة بروست", "isAvailable": false, "lastKnownPrice2020": 30, "variants": [ { "nameAr": null, "price": null } ] }
+      ]
+    },
+    {
+      "slug": "western", "nameAr": "وجبات وسندوتشات غربي", "nameEn": "Western Meals & Sandwiches", "imageUrl": null, "sortOrder": 14, "needsPricing": true,
+      "items": [
+        { "nameAr": "وجبة كرسبي", "descriptionAr": "4 قطع صدور مقرمشة", "isAvailable": false, "lastKnownPrice2020": 45, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة زنجر", "descriptionAr": "4 قطع صدور مقرمشة", "isAvailable": false, "lastKnownPrice2020": 45, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة فاهيتا", "isAvailable": false, "lastKnownPrice2020": 45, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "وجبة شيش طاووق", "descriptionAr": "8 قطع صدور مخلية", "isAvailable": false, "lastKnownPrice2020": 50, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش كرسبي", "isAvailable": false, "lastKnownPrice2020": 18, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش زنجر", "isAvailable": false, "lastKnownPrice2020": 18, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش شيش طاووق", "isAvailable": false, "lastKnownPrice2020": 18, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش فاهيتا فراخ", "isAvailable": false, "lastKnownPrice2020": 18, "variants": [ { "nameAr": null, "price": null } ] },
+        { "nameAr": "سندوتش كبدة", "isAvailable": false, "lastKnownPrice2020": 18, "variants": [ { "nameAr": null, "price": null } ] }
+      ]
+    }
+  ]
+}
